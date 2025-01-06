@@ -4,7 +4,8 @@ import { WarpCoreConfig } from '@hyperlane-xyz/sdk';
 // These configs will be merged with the warp routes in the configured registry
 // The input here is typically the output of the Hyperlane CLI warp deploy command
 export const warpRouteConfigs: WarpCoreConfig = {
-base:
+
+    tokens: [base:
   interchainSecurityModule:
     modules:
       - relayer: "0xda2c1fF123D05A65A5c5CecfAFE9940f81B1343B"
@@ -115,5 +116,6 @@ solanamainnet:
   owner: "0xda2c1fF123D05A65A5c5CecfAFE9940f81B1343B"
   proxyAdmin:
     owner: "0xda2c1fF123D05A65A5c5CecfAFE9940f81B1343B"
-  type: native
+  type: native],
+  options: {},
 };
