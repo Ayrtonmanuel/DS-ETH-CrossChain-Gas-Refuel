@@ -7,7 +7,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
   tokens: [
     {
       chainName: "base",
-      standard: "TokenStandard.EvmHypNative",
+      standard: "TokenStandard.EvmNative",
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -21,7 +21,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "lisk",
-      standard: "TokenStandard.EvmHypNative",
+      standard: "TokenStandard.EvmNative",
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -35,7 +35,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "mint",
-      standard: "TokenStandard.EvmHypNative",
+      standard: "TokenStandard.EvmNative",
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -49,7 +49,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "optimism",
-      standard: "TokenStandard.EvmHypNative",
+      standard: "TokenStandard.EvmNative",
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -63,7 +63,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "swell",
-      standard: "TokenStandard.EvmHypCollateral",
+      standard: "TokenStandard.EvmCollateral",
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
