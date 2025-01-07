@@ -1,10 +1,8 @@
-import { WarpCoreConfig } from '@hyperlane-xyz/sdk';
-
-// A list of Warp Route token configs
-// These configs will be merged with the warp routes in the configured registry
-// The input here is typically the output of the Hyperlane CLI warp deploy command
-export const warpRouteConfigs: WarpCoreConfig = {
-  tokens: [ tokens:
+# A list of Warp Route token configs
+# These configs will be merged with the warp routes in the configured registry
+# The input here is typically the output of the Hyperlane CLI warp deploy command
+---
+ tokens:
       - chainName: base
         standard: EvmHypNative
         decimals: 18
@@ -60,6 +58,5 @@ export const warpRouteConfigs: WarpCoreConfig = {
           - token: ethereum|base|0xF823f5b1E4017190c14c4cf975DF0d33e5AF6A40
           - token: ethereum|lisk|0x274c9f6ac5bD2Be638e8122e8C656a9899B60cc8
           - token: ethereum|mint|0x73e95f62CaD1624f93142aEd3A8045C230bAc3bd
-          - token: ethereum|optimism|0xE8D11E04Cf6bE23CB8c6aeC0a52ddA2Ac586dD9C],
-  options: {},
-};
+          - token: ethereum|optimism|0xE8D11E04Cf6bE23CB8c6aeC0a52ddA2Ac586dD9C
+options: {}
