@@ -1,4 +1,4 @@
-import { WarpCoreConfig } from '@hyperlane-xyz/sdk';
+import { WarpCoreConfig, TokenStandard } from '@hyperlane-xyz/sdk';
 
 // A list of Warp Route token configs
 // These configs will be merged with the warp routes in the configured registry
@@ -7,7 +7,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
   tokens: [
     {
       chainName: "base",
-      standard: "TokenStandard.EvmNative",
+      standard: TokenStandard.EvmNative,
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -21,7 +21,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "lisk",
-      standard: "TokenStandard.EvmNative",
+      standard: TokenStandard.EvmNative,
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -35,7 +35,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "mint",
-      standard: "TokenStandard.EvmNative",
+      standard: TokenStandard.EvmNative,
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -49,7 +49,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "optimism",
-      standard: "TokenStandard.EvmNative",
+      standard: TokenStandard.EvmNative,
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
@@ -63,7 +63,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "swell",
-      standard: "TokenStandard.EvmCollateral",
+      standard: TokenStandard.EvmCollateral,
       decimals: 18,
       symbol: "ETH",
       name: "Ether",
