@@ -5,5 +5,5 @@
 export const warpRouteWhitelist: Array<string> | null = null;
 // Example:
 // [
-//   // 'ETH/base-bsc-eclipsemainnet-lisk-optimism-ronin-solanamainnet'
+//   // 'ETH/base-lisk-mint-optimism-swell'
 // ];
