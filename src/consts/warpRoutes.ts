@@ -1,5 +1,6 @@
-tokens: [
-     {
+import { WarpCoreConfig } from '@hyperlane-xyz/sdk';
+export const warpRouteConfigs: WarpCoreConfig = {
+  tokens: [{
        chainName: base
         standard: EvmHypNative
         decimals: 18
@@ -64,6 +65,6 @@ tokens: [
           - token: ethereum|lisk|0x274c9f6ac5bD2Be638e8122e8C656a9899B60cc8
           - token: ethereum|mint|0x73e95f62CaD1624f93142aEd3A8045C230bAc3bd
           - token: ethereum|optimism|0xE8D11E04Cf6bE23CB8c6aeC0a52ddA2Ac586dD9C
-   } 
-]
-options: {}
+   }],
+  options: {},
+};
